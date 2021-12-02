@@ -1,9 +1,9 @@
-import React from "react";
+import React, {Component} from "react";
 import Iphone from "./iphone";
 import Icons from "./icons";
 import BackgroundImage from "./images/backgroundgif.gif"
 
-
+    
 function App() {
     return (
         <div className="root-div" style={{  
