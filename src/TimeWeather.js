@@ -41,7 +41,7 @@ export default function TimeWeather() {
 
             </div>
             <div className='weather-div'>
-                <img src={weatherImage} alt={weatherForecast}/> 
+                <img className= "weather-icon"src={weatherImage} alt={weatherForecast}/> 
                 <div className='weather-icon-div'>
                     {Math.floor(weatherTemp)}℃
                 </div>

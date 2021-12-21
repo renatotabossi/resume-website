@@ -10,7 +10,7 @@ function App() {
             className="root-div"
             style={{
             backgroundImage: `url(${BackgroundImage})`,
-            backgroundPosition: 'center',
+            backgroundPosition: 'center center',
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat'
         }}>

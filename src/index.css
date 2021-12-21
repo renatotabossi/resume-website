@@ -7,11 +7,6 @@ body {
   background-color: #2e2e2e;
 }
 
-@media (min-width: 320px) {
-  body {
-      font-size: 8px;
-  }
-}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -238,4 +233,122 @@ h1 {
 .weather-div {
   font-size: 1.7rem;
   color: white;
+}
+
+
+/* MOBILE MEDIA QUERY */
+
+
+@media screen and (max-width: 786px) {
+
+  .root-div {
+    height: 896px;
+    width: 414px;
+  }
+
+
+  /* MOBILE BACKGROUND */
+
+  .iphone-wallpaper {
+    width: 0;
+    height: 0;
+  }
+  .iphone-background {
+    width: 0;
+    height: 0;
+  }
+  .iphone {
+    width: 0;
+    height: 0;
+  }
+  .highlight {
+    width: 0;
+    height: 0;
+  }
+  .circle {
+    width: 0;
+    height: 0;
+  }
+  .camera {
+    width: 0;
+    height: 0;
+  }
+  .speaker {
+    width: 0;
+    height: 0;
+  }
+  .screen {
+    width: 0;
+    height: 0;
+  }
+  .home2  {
+    width: 0;
+    height: 0;
+  }
+  .home1  {
+    width: 0;
+    height: 0;
+  }
+
+  /* MOBILE ICONS */
+
+.work-div{
+  left: 1rem;
+  top: 1rem;
+
+}
+.icons-div{
+  height: 5rem;
+  width: 5rem;
+  left: 1rem;
+  top: 20rem;
+
+}
+.linkedin-icon{
+  position: absolute;
+  height: 6rem;
+  width: 6rem;
+  left: 1rem;
+
+}
+.github-icon{
+  position: absolute;
+  height: 6rem;
+  width: 6rem;
+  left: 3rem;
+
+}
+.gmail-icon{
+  position: absolute;
+  height: 6rem;
+  width: 6rem;
+  left: 3rem;
+  top: 10rem;
+
+}
+.resume-icon{
+  position: absolute;
+  height: 6rem;
+  width: 6rem;
+  left: -4.5rem;
+  top: 10rem;
+
+}
+
+    /* WEATHER MOBILE ICONS */
+    .time-weather {
+      display: none;
+    }
+    
+    .weather-icon-div {
+      display: none;
+      
+    }
+
+    .weather-icon {
+      display: none;
+    }
+
+
+
 }
