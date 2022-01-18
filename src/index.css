@@ -361,32 +361,35 @@ a:hover {
   top: 1rem;
 
 }
+
+.budget-icon {
+  grid-row: 2;
+}
 .icons-div{
   height: 5rem;
   width: 5rem;
   left: -18rem;
-  top: 25rem;
-
+  top: 35rem;
 }
 .linkedin-icon{
   position: absolute;
   height: 6rem;
   width: 6rem;
-  left: 1rem;
-
+  left: 11.5rem;
+  top: 1rem;
 }
 .github-icon{
   position: absolute;
-  height: 6rem;
-  width: 6rem;
-  left: 3rem;
-
+  height: 7rem;
+  width: 7rem;
+  left: 5rem;
+  top: -7rem;
 }
 .gmail-icon{
   position: absolute;
   height: 6rem;
   width: 6rem;
-  left: 3rem;
+  left: 6rem;
   top: 10rem;
 
 }
@@ -399,20 +402,20 @@ a:hover {
 
 }
 
-    /* WEATHER MOBILE ICONS */
-    .time-weather {
-      display: none;
-    }
-    
-    .weather-icon-div {
-      display: none;
-      
-    }
+  /* MODAL ABOUT ME */
 
-    .weather-icon {
-      display: none;
-    }
+  .button-modal {
+    position: absolute;
+    left: 15rem;
+    top: 4rem;
+  }
 
+  .about-me-description {
+    font-size: 1rem;
+  }
 
+  .profile-picture {
+    float: none;
+  }
 
 }
