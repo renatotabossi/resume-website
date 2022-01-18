@@ -1,24 +1,22 @@
 import React from "react";
 import Iphone from "./iphone";
-import Icons from "./icons";
 import BackgroundImage from "./images/backgroundgif.gif";
-import TimeWeather from "./TimeWeather";
+import ModalCard from "./ModalCard";
 
 function App() {
     return (
         <div
             className="root-div"
             style={{
-            backgroundImage: `url(${BackgroundImage})`,
-            backgroundPosition: 'center center',
-            backgroundSize: 'cover',
-            backgroundRepeat: 'no-repeat'
-        }}>
-            <div><TimeWeather/></div>
-            <div><Iphone/></div>
-            <div><Icons/></div>
+                backgroundImage: `url(${BackgroundImage})`,
+
+                backgroundSize: "cover",
+            }}
+        >
+            <Iphone />
+            <ModalCard />
         </div>
-    )
+    );
 }
 
 export default App;
