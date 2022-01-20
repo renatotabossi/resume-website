@@ -6,12 +6,19 @@ import ResumeIcon from "./images/resume-icon.png";
 import NotesIcon from "./images/notes-icon.png";
 import BudgetIcon from "./images/budget-icon.png";
 import SecretIcon from "./images/secret-icon.png";
+import LandingPageIcon from "./images/landing-page-icon.png";
 
 export default function icons() {
     return (
         <div>
             <div className="work-div">
-                <h1>Projects</h1>
+                <h1
+                    style={{
+                        margin: "auto",
+                    }}
+                >
+                    Projects
+                </h1>
 
                 <a
                     href="https://functioning-keeper-app.herokuapp.com/"
@@ -27,6 +34,7 @@ export default function icons() {
                         Google Keep Like App
                     </span>
                 </a>
+
                 <a
                     href="https://budget-project-react-app.herokuapp.com/"
                     rel="noopener noreferrer"
@@ -39,6 +47,20 @@ export default function icons() {
                     />
                     <span className="description-span">
                         Personal Budget App
+                    </span>
+                </a>
+                <a
+                    href="https://oxi-interiores.herokuapp.com/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                >
+                    <img
+                        src={LandingPageIcon}
+                        alt="Landing Page Logo"
+                        className="landing-page-icon icons"
+                    />
+                    <span className="description-span">
+                        Landing Page (beta)
                     </span>
                 </a>
                 <a
@@ -91,13 +113,13 @@ export default function icons() {
                     />
                 </a>
                 <a
-                    href="mailto:renatotabossi@gmail.com"
+                    href="https://docdro.id/0ISXbzC"
                     rel="noopener noreferrer"
                     target="_blank"
                 >
                     <img
                         src={ResumeIcon}
-                        alt="Gmail Logo"
+                        alt="Resume Logo"
                         className="resume-icon icons"
                     />
                 </a>
