@@ -3,81 +3,12 @@ import linkedinIcon from "./images/linkedin-icon.png";
 import GithubIcon from "./images/github-icon.png";
 import GmailIcon from "./images/gmail-icon.png";
 import ResumeIcon from "./images/resume-icon.png";
-import NotesIcon from "./images/notes-icon.png";
-import BudgetIcon from "./images/budget-icon.png";
-import SecretIcon from "./images/secret-icon.png";
-import LandingPageIcon from "./images/landing-page-icon.png";
+import ProjectsIcons from "./ProjectsIcons";
 
 export default function icons() {
     return (
         <div>
-            <div className="work-div">
-                <h1
-                    style={{
-                        margin: "auto",
-                    }}
-                >
-                    Projects
-                </h1>
-
-                <a
-                    href="https://functioning-keeper-app.herokuapp.com/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                >
-                    <img
-                        src={NotesIcon}
-                        alt="Notes Logo"
-                        className="notes-icon icons"
-                    />
-                    <span className="description-span">
-                        Google Keep Like App
-                    </span>
-                </a>
-
-                <a
-                    href="https://budget-project-react-app.herokuapp.com/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                >
-                    <img
-                        src={BudgetIcon}
-                        alt="Budget Logo"
-                        className="budget-icon icons"
-                    />
-                    <span className="description-span">
-                        Personal Budget App
-                    </span>
-                </a>
-                <a
-                    href="https://oxi-interiores.herokuapp.com/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                >
-                    <img
-                        src={LandingPageIcon}
-                        alt="Landing Page Logo"
-                        className="landing-page-icon icons"
-                    />
-                    <span className="description-span">
-                        Landing Page (beta)
-                    </span>
-                </a>
-                <a
-                    href="https://secret-app-ejs.herokuapp.com/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                >
-                    <img
-                        src={SecretIcon}
-                        alt="Secret Apps Logo"
-                        className="secret-icon icons"
-                    />
-                    <span className="description-span">
-                        Secrets Posting App (fullstack)
-                    </span>
-                </a>
-            </div>
+            <ProjectsIcons />
             <div className="icons-div">
                 <a
                     href="https://www.linkedin.com/in/renato-pimentel/"

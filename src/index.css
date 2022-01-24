@@ -20,7 +20,7 @@ h1 {
 }
 .root-div {
   height: 100vh;
-  width: 100%;
+  width: 100vw;
 }
 /* IPHONE IMAGE */
 
@@ -142,28 +142,38 @@ h1 {
   left: 2rem;
   border: 2px outset rgb(54, 89, 142);
   animation: 1s ease-in opacityChange;
+  overflow-y: scroll;
+  max-height: 25rem;
+  
+}
+::-webkit-scrollbar {
+  width: 12px;
 }
 
-.secret-icon {
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: rgba(32, 59, 150, 0.8); 
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(32, 59, 150, 0.8); 
+}
+
+.icons {
   width: 4rem;
   height: 4rem;
   margin: 1rem;
 }
-.notes-icon {
-  width: 4rem;
-  height: 4rem;
-  margin: 1rem;
-}
-.budget-icon {
-  width: 4rem;
-  height: 4rem;
-  margin: 1rem;
-}
-.landing-page-icon {
-  width: 4rem;
-  height: 4rem;
-  margin: 1rem;
-}
+
 
 .description-span {
   font-size: 1.2rem;
@@ -207,7 +217,7 @@ a:hover {
   position: absolute;
   margin: 0;
   left: 3rem;
-  top: 37rem;
+  top: 35rem;
   z-index: 500;
   animation: 1s ease-in opacityChange;
 }
@@ -371,7 +381,10 @@ a:hover {
   border: none;
   float: left;
   width: fit-content;
+  overflow-x: visible !important;
 }
+
+
 
 .notes-icon {
   margin: 1rem;
