@@ -8,7 +8,9 @@ import ProjectsIcons from "./ProjectsIcons";
 export default function icons() {
     return (
         <div>
-            <ProjectsIcons />
+            <div>
+                <ProjectsIcons />
+            </div>
             <div className="icons-div">
                 <a
                     href="https://www.linkedin.com/in/renato-pimentel/"

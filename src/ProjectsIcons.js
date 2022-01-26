@@ -4,6 +4,8 @@ import BudgetIcon from "./images/budget-icon.png";
 import SecretIcon from "./images/secret-icon.png";
 import LandingPageIcon from "./images/landing-page-icon.png";
 import QuizIcon from "./images/quiz-icon.png";
+import PizzaIcon from "./images/pizza-icon.png";
+import TicTacToeIcon from "./images/tic-tac-toe-icon.png";
 
 export default function ProjectsIcons() {
     return (
@@ -11,6 +13,7 @@ export default function ProjectsIcons() {
             <h1
                 style={{
                     margin: "auto",
+                    textDecoration: "underline dotted",
                 }}
             >
                 Projects
@@ -75,6 +78,30 @@ export default function ProjectsIcons() {
             >
                 <img src={QuizIcon} alt="Quiz App Logo" className="icons" />
                 <span className="description-span">Quiz App (Javascript)</span>
+            </a>
+            <a
+                href="https://pizza-ecommerce-app.herokuapp.com/"
+                rel="noopener noreferrer"
+                target="_blank"
+            >
+                <img src={PizzaIcon} alt="Pizza App Logo" className="icons" />
+                <span className="description-span">
+                    Pizza Ecommerce App (React)
+                </span>
+            </a>
+            <a
+                href="https://js-app-tic-tac-toe.herokuapp.com/"
+                rel="noopener noreferrer"
+                target="_blank"
+            >
+                <img
+                    src={TicTacToeIcon}
+                    alt="Tic Tac Toe App Logo"
+                    className="icons"
+                />
+                <span className="description-span">
+                    Tic Tac Toe Game (Javascript)
+                </span>
             </a>
         </div>
     );
