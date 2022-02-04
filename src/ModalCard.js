@@ -19,12 +19,12 @@ export default function ModalCard() {
     }
 
     const aboutMeEng = `Hello! Welcome to my Portfolio, I'm Renato Tabossi, a Front-End Developer, former
-    lawyer and business graduate, with experience on React
+    lawyer and business graduate, with experience in React
     and other Javascript Frameworks and Libs (Jquery, Node)
     and also knowledge of CSS (Bootstrap, MUI, Sass,
     Tailwind). Take a look at my GITHUB, Linkedin and online
-    projects ! Shoot me an email or DM if you have any
-    questions !`;
+    projects! Shoot me an email or DM if you have any
+    questions!`;
 
     const aboutMePtBr = `Ola! Bem-vindo ao meu Portfolio, sou Renato Tabossi, um 
     Front-End Developer, fui advogado e sou formado em Business, possuo vasta 

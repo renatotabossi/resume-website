@@ -46,7 +46,7 @@ export default function icons() {
                     />
                 </a>
                 <a
-                    href="https://docdro.id/0ISXbzC"
+                    href="https://docdro.id/EbqjwZP"
                     rel="noopener noreferrer"
                     target="_blank"
                 >
