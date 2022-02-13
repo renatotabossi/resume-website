@@ -18,7 +18,16 @@ export default function ProjectsIcons() {
             >
                 Projects
             </h1>
-
+            <a
+                href="https://pizza-ecommerce-app.herokuapp.com/"
+                rel="noopener noreferrer"
+                target="_blank"
+            >
+                <img src={PizzaIcon} alt="Pizza App Logo" className="icons" />
+                <span className="description-span">
+                    Pizza Ecommerce App (React)
+                </span>
+            </a>
             <a
                 href="https://functioning-keeper-app.herokuapp.com/"
                 rel="noopener noreferrer"
@@ -44,51 +53,7 @@ export default function ProjectsIcons() {
                 />
                 <span className="description-span">Personal Budget App</span>
             </a>
-            <a
-                href="https://oxi-interiores.herokuapp.com/"
-                rel="noopener noreferrer"
-                target="_blank"
-            >
-                <img
-                    src={LandingPageIcon}
-                    alt="Landing Page Logo"
-                    className="landing-page-icon icons"
-                />
-                <span className="description-span">Landing Page (beta)</span>
-            </a>
-            <a
-                href="https://secret-app-ejs.herokuapp.com/"
-                rel="noopener noreferrer"
-                target="_blank"
-            >
-                <img
-                    src={SecretIcon}
-                    alt="Secret Apps Logo"
-                    className="secret-icon icons"
-                />
-                <span className="description-span">
-                    Secrets Posting App (fullstack)
-                </span>
-            </a>
 
-            <a
-                href="https://quiz-app-training.herokuapp.com/"
-                rel="noopener noreferrer"
-                target="_blank"
-            >
-                <img src={QuizIcon} alt="Quiz App Logo" className="icons" />
-                <span className="description-span">Quiz App (Javascript)</span>
-            </a>
-            <a
-                href="https://pizza-ecommerce-app.herokuapp.com/"
-                rel="noopener noreferrer"
-                target="_blank"
-            >
-                <img src={PizzaIcon} alt="Pizza App Logo" className="icons" />
-                <span className="description-span">
-                    Pizza Ecommerce App (React)
-                </span>
-            </a>
             <a
                 href="https://js-app-tic-tac-toe.herokuapp.com/"
                 rel="noopener noreferrer"
@@ -102,6 +67,28 @@ export default function ProjectsIcons() {
                 <span className="description-span">
                     Tic Tac Toe Game (Javascript)
                 </span>
+            </a>
+
+            <a
+                href="https://quiz-app-training.herokuapp.com/"
+                rel="noopener noreferrer"
+                target="_blank"
+            >
+                <img src={QuizIcon} alt="Quiz App Logo" className="icons" />
+                <span className="description-span">Quiz App (Javascript)</span>
+            </a>
+
+            <a
+                href="https://oxi-interiores.herokuapp.com/"
+                rel="noopener noreferrer"
+                target="_blank"
+            >
+                <img
+                    src={LandingPageIcon}
+                    alt="Landing Page Logo"
+                    className="landing-page-icon icons"
+                />
+                <span className="description-span">Landing Page (beta)</span>
             </a>
         </div>
     );
