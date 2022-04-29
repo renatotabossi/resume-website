@@ -1,10 +1,7 @@
 import React from "react";
 import NotesIcon from "./images/notes-icon.png";
 import BudgetIcon from "./images/budget-icon.png";
-import SecretIcon from "./images/secret-icon.png";
-import LandingPageIcon from "./images/landing-page-icon.png";
 import QuizIcon from "./images/quiz-icon.png";
-import PizzaIcon from "./images/pizza-icon.png";
 import TicTacToeIcon from "./images/tic-tac-toe-icon.png";
 
 export default function ProjectsIcons() {
@@ -19,14 +16,17 @@ export default function ProjectsIcons() {
                 Projects
             </h1>
             <a
-                href="https://pizza-ecommerce-app.herokuapp.com/"
+                href="https://budget-project-react-app.herokuapp.com/"
                 rel="noopener noreferrer"
                 target="_blank"
             >
-                <img src={PizzaIcon} alt="Pizza App Logo" className="icons" />
-                <span className="description-span">
-                    Pizza Ecommerce App (React)
-                </span>
+                <img
+                    src={BudgetIcon}
+                    alt="Budget Logo"
+                    className="budget-icon icons"
+                    ß
+                />
+                <span className="description-span">Personal Budget App</span>
             </a>
             <a
                 href="https://functioning-keeper-app.herokuapp.com/"
@@ -39,19 +39,6 @@ export default function ProjectsIcons() {
                     className="notes-icon icons"
                 />
                 <span className="description-span">Google Keep Like App</span>
-            </a>
-
-            <a
-                href="https://budget-project-react-app.herokuapp.com/"
-                rel="noopener noreferrer"
-                target="_blank"
-            >
-                <img
-                    src={BudgetIcon}
-                    alt="Budget Logo"
-                    className="budget-icon icons"
-                />
-                <span className="description-span">Personal Budget App</span>
             </a>
 
             <a
@@ -76,19 +63,6 @@ export default function ProjectsIcons() {
             >
                 <img src={QuizIcon} alt="Quiz App Logo" className="icons" />
                 <span className="description-span">Quiz App (Javascript)</span>
-            </a>
-
-            <a
-                href="https://oxi-interiores.herokuapp.com/"
-                rel="noopener noreferrer"
-                target="_blank"
-            >
-                <img
-                    src={LandingPageIcon}
-                    alt="Landing Page Logo"
-                    className="landing-page-icon icons"
-                />
-                <span className="description-span">Landing Page (beta)</span>
             </a>
         </div>
     );
